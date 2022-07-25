@@ -9,9 +9,7 @@
      xmlns:oasis="http://www.dmi.unict.it/oasis.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:untitled-ontology-39="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39">
-        <owl:imports rdf:resource="http://www.dmi.unict.it/oasis.owl"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39"/>
     
 
 
