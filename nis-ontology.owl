@@ -24,18 +24,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#actAs -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#actAs">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adopt -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adopt">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
     </owl:ObjectProperty>
     
 
@@ -43,21 +35,7 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adoptPolicies -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adoptPolicies">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#assess -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#assess">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
     </owl:ObjectProperty>
     
 
@@ -65,23 +43,7 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#assessPeriodically -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#assessPeriodically">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#communicateDesignationOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#communicateDesignationOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#cooperateWith -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#cooperateWith">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
     </owl:ObjectProperty>
     
 
@@ -89,92 +51,28 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#develop -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#develop">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#disclose -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#disclose">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureAuthoritiesHave -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureAuthoritiesHave">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#establish -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#establish">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasSecurityProperty -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasSecurityProperty"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#identifie -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#identifie">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#includeObjectives -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#includeObjectives"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
     
 
 
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#submit -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notifyToCommissionIdentityOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#submit">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#articlesProperties"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notifyToCommissionIdentityOf"/>
     
 
 
@@ -327,7 +225,7 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AcademicResearchSupportingPolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AcademicResearchSupportingPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy on supporting academic and research institutions to develop
 cybersecurity tools and secure network infrastructure.</rdfs:comment>
     </owl:Class>
@@ -348,125 +246,40 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-5-Compliant -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-Compliant -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-5-Compliant">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adoptPolicies"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityAuthoritiesActorsList"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityStrategyObjectivesPriorities"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EnhancedCoordinationPolicyFramework"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresIdentification"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticles"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-Compliant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticlesCompliance"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-Compliant -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-ENISA-Compliant -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-Compliant">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EuropeanVulnerabilityRegistry"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystem"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Policies"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Procedure"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticles"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-ENISA-Compliant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-Compliant"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-ENISA -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-MemberState-Compliant -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-ENISA">
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-MemberState-Compliant">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EuropeanVulnerabilityRegistry"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystem"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Policies"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#maintain"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Procedure"/>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notifyToCommissionIdentityOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-Compliant"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-MemberState -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-MemberState">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-6-Compliant"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-Compliant"/>
     </owl:Class>
     
 
@@ -474,55 +287,14 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-7-Compliant -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-7-Compliant">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#LargeScaleIncidentManagementAuthor"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureAuthoritiesHave"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentRecoveryResources"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adopt"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberSecurityIncidentCrisisReponsePlan"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#identifie"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CrisisCapabilitiesProcedures"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberSecurityIncidentCrisisReponsePlan"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticles"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticlesCompliance"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-8-Compliant -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-8-Compliant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticles"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies">
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Policies"/>
     </owl:Class>
     
@@ -531,20 +303,6 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#actAs"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Intermediary"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#cooperateWith"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRTNetwork"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.dmi.unict.it/oasis.owl#Agent"/>
         <rdfs:comment>Computer Security Incident Response Team.</rdfs:comment>
     </owl:Class>
@@ -584,7 +342,7 @@ content and services to internet users on behalf of content and service provider
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosurePolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosurePolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy to promote and facilitate coordinated vulnerability disclosure within
 the meaning of Article 6 of NIS directive.</rdfs:comment>
     </owl:Class>
@@ -602,20 +360,6 @@ the meaning of Article 6 of NIS directive.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberSecurityIncidentCrisisReponsePlan -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberSecurityIncidentCrisisReponsePlan">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#communicateDesignationOf"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityAuthoritiesActorsList"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#submit"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberSecurityIncidentCrisisReponsePlan"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityPlanProperties"/>
@@ -668,7 +412,7 @@ the meaning of Article 6 of NIS directive.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityInformationSharingPolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityInformationSharingPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy, relevant procedures and appropriate information-sharing tools to
 support voluntary cybersecurity information sharing between companies in
 compliance with Union law.</rdfs:comment>
@@ -679,7 +423,7 @@ compliance with Union law.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromotingPolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromotingPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy on promoting and developing cybersecurity skills, awareness raising and research and development initiatives.</rdfs:comment>
     </owl:Class>
     
@@ -767,24 +511,6 @@ exercise rights and be subject to obligations.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EuropeanVulnerabilityRegistry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EuropeanVulnerabilityRegistry">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#includeObjectives"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AffectedService"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#includeObjectives"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Vulnerability"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#includeObjectives"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#VulnerabilitySeverity"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Registries"/>
     </owl:Class>
     
@@ -813,12 +539,6 @@ exercise rights and be subject to obligations.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ImportantEntity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ImportantEntity">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#disclose"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EuropeanVulnerabilityRegistry"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
     </owl:Class>
     
@@ -856,7 +576,7 @@ and containment of and a response to an incident.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Institution -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Institution">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Actor"/>
+        <rdfs:subClassOf rdf:resource="http://www.dmi.unict.it/oasis.owl#Agent"/>
     </owl:Class>
     
 
@@ -898,18 +618,9 @@ primarily for the purpose of facilitating the exchange of internet traffic.</rdf
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticlesCompliance -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Institution"/>
-        <rdfs:comment>State member of european union.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticles -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticles"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NISArticlesCompliance"/>
     
 
 
@@ -962,7 +673,7 @@ Regulation (EU) 2019/1150 of the European Parliament and of the Council.</rdfs:c
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilityPolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilityPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy related to sustaining the general availability and integrity of the public
 core of the open internet.</rdfs:comment>
     </owl:Class>
@@ -1043,7 +754,7 @@ content delivery network provider.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEThreatResiliencePolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEThreatResiliencePolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy addressing specific needs of SMEs, in particular those excluded from
 the scope of this Directive, in relation to guidance and support in improving
 their resilience to cybersecurity threats.</rdfs:comment>
@@ -1074,7 +785,7 @@ No 1025/2012 of the European Parliament and of the Council.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplychainPolicy -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplychainPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
         <rdfs:comment>A policy addressing cybersecurity in the supply chain for ICT products and
 services used by essential and important entities for the provision of their
 services.</rdfs:comment>

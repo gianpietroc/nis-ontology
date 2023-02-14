@@ -7,7 +7,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:untitled-ontology-39="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#">
-    <Ontology/>
+    <Ontology rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2023/0/untitled-ontology-111">
+        <imports rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39"/>
+    </Ontology>
     
 
 
@@ -40,15 +42,25 @@
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
+    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </rdf:Description>
     
 
 
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify -->
 
     <ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notifyToCommissionIdentityOf -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notifyToCommissionIdentityOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#hasArticlesProperties"/>
+    </ObjectProperty>
     
 
 
@@ -63,93 +75,49 @@
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AcademicResearchSupportingPolicy -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-7-MemberState-Compliant -->
 
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AcademicResearchSupportingPolicy"/>
+    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-7-MemberState-Compliant">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adopt"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adoptPolicies"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#assessPeriodically"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-7-Compliant"/>
+    </Class>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState -->
 
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosurePolicy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosurePolicy"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityAuthoritiesActorsList -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityAuthoritiesActorsList"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityInformationSharingPolicy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityInformationSharingPolicy"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromotingPolicy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromotingPolicy"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityStrategyObjectivesPriorities -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityStrategyObjectivesPriorities"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EnhancedCoordinationPolicyFramework -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EnhancedCoordinationPolicyFramework"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresIdentification -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresIdentification"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilityPolicy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilityPolicy"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEThreatResiliencePolicy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEThreatResiliencePolicy"/>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplychainPolicy -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplychainPolicy"/>
+    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-10-MemberState-Compliant"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-7-MemberState-Compliant"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Institution"/>
+    </Class>
     
 
 
@@ -164,189 +132,183 @@
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-5-Compliant -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Actor-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-5-Compliant">
-        <untitled-ontology-39:adopt rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
-        <untitled-ontology-39:adoptPolicies rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
-        <untitled-ontology-39:assessPeriodically rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinationPolicyFramework"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityActorsAndAuthorities"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentsMeasuresIdentification"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ObjectivesPrioritiesDefinition"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment"/>
-        <untitled-ontology-39:notify rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Actor-ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Actor"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-5-Not-Compliant -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article-5-Not-Compliant">
-        <untitled-ontology-39:adoptPolicies rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromoting"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies-ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT-ind -->
 
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article5Policies"/>
-    </Class>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT-ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT"/>
+    </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosure -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosure-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosure">
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosure-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinatedVulnerabilityDisclosurePolicy"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinationPolicyFramework -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinationPolicyFramework-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinationPolicyFramework">
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinationPolicyFramework-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EnhancedCoordinationPolicyFramework"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityActorsAndAuthorities -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityActorsAndAuthorities-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityActorsAndAuthorities">
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityActorsAndAuthorities-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityAuthoritiesActorsList"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityResearchSupporting -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityResearchSupporting">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AcademicResearchSupportingPolicy"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromoting -->
-
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromoting">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySkillsPromotingPolicy"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySupplyChainAddressing -->
-
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecuritySupplyChainAddressing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplychainPolicy"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework -->
-
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework"/>
-    </Class>
+    </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentsMeasuresIdentification -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentsMeasuresIdentification-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentsMeasuresIdentification">
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentsMeasuresIdentification-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresIdentification"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationSharing -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationSharing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityInformationSharingPolicy"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ObjectivesPrioritiesDefinition-ind -->
 
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CoordinationPolicyFramework"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityActorsAndAuthorities"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentsMeasuresIdentification"/>
-        <untitled-ontology-39:include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ObjectivesPrioritiesDefinition"/>
-    </Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ObjectivesPrioritiesDefinition -->
-
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ObjectivesPrioritiesDefinition">
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ObjectivesPrioritiesDefinition-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityStrategyObjectivesPriorities"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilitySustanance -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PC -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilitySustanance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OpenInternetIntegrityAvailabilityPolicy"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PC">
+        <untitled-ontology-39:designate rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT-ind"/>
     </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PublicProcurementCybersecurityRequirements -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PI -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PublicProcurementCybersecurityRequirements"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PI"/>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantAssetsCybersecurityRisks -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Policies-ind -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantAssetsCybersecurityRisks"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Policies-ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Policies"/>
+    </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Procedure-ind -->
 
-    <Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Procedure-ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Procedure"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment-ind -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment-ind">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment"/>
-    </Class>
+    </NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEpolicy -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#individual1 -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEpolicy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SMEThreatResiliencePolicy"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#individual1">
+        <untitled-ontology-39:adopt rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind"/>
+        <untitled-ontology-39:adoptPolicies rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies-ind"/>
+        <untitled-ontology-39:assessPeriodically rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind"/>
+        <untitled-ontology-39:designate rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT-ind"/>
+        <untitled-ontology-39:notify rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind"/>
+        <untitled-ontology-39:notifyToCommissionIdentityOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT-ind"/>
     </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#individual2 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#individual2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#individual3 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#individual3">
+        <untitled-ontology-39:adopt rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind"/>
+        <untitled-ontology-39:adoptPolicies rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Article7Policies-ind"/>
+        <untitled-ontology-39:assessPeriodically rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind"/>
+        <untitled-ontology-39:notify rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy-ind"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#prova2 -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#prova2"/>
     
 
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotations
+    // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GovernanceFramework">
-        <rdfs:comment>Provides a mechanism for senior management, as well as those at the operational level, to have a clear understanding and oversight of each other&apos;s expectations, objectives, performance, risk appetite, and reporting requirements.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy">
-        <rdfs:comment>It means a coherent framework of a Member State providing strategic objectives and priorities on the security of network and information systems in that Member State.</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment">
-        <rdfs:comment>It means the activity of evaluate assets and their weakness.</rdfs:comment>
-    </rdf:Description>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate"/>
+        <someValuesFrom>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CSIRT"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#notify"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NationalCyberSecurityStrategy"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </someValuesFrom>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Actor"/>
+    </Restriction>
 </rdf:RDF>
 
 
