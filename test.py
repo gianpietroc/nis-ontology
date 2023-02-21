@@ -1,21 +1,23 @@
 import spacy
+import textacy 
 
-excluded_tags = {"ADJ", "ADV"}
+import json
+
+data = json.load(open('articles.json'))
+jtopy=json.dumps(data)
+dict_json=json.loads(jtopy)
+
+excluded_tags = {"ADV"}
 
 
 nlp = spacy.load('en_core_web_sm')
-sentences=["""Each Member State shall adopt a national cybersecurity strategy that provides for the strategic objectives, the resources required to achieve those objectives, and appropriate policy and regulatory measures, with a view to achieving and maintaining a high level of cybersecurity."""]
 
 def remove_tags(doc):
-    new_sentences = []
-    for sentence in sentences:
-        new_sentence = []
-        for token in nlp(sentence):
-            if token.pos_ not in excluded_tags:
-                new_sentence.append(token.text)
-        new_sentences.append(" ".join(new_sentence))
-        return new_sentences
-
+    new_sentence = []
+    for token in nlp(doc):
+        if token.pos_ not in excluded_tags:
+            new_sentence.append(token.text)
+    return new_sentence
 
 def get_subject_phrase(doc):
     for token in doc:
@@ -33,17 +35,20 @@ def get_object_phrase(doc):
             end = subtree[-1].i + 1
             return doc[start:end]
 
-for sentence in sentences:
+
+for i in range(len(dict_json)):
+    sentence = dict_json["articles"][0].get('measures')[0].get("measure-"+str(i+1))
+    
+    if(dict_json["articles"][0].get('measures')[0].get('sub-measures') is not None):
+        print("ok submeasures")
+
     doc = nlp(sentence)
+    
     removed = remove_tags(doc)
-    
     final  = ' '.join(map(str,removed))
+    final_nlp = nlp(final)
 
-    print(final)
-    
-    final = nlp(final)
-
-    subject_phrase = get_subject_phrase(final)
-    object_phrase = get_object_phrase(final)
+    subject_phrase = get_subject_phrase(final_nlp)
+    object_phrase = get_object_phrase(final_nlp)
     print("Subject ->", subject_phrase)
     print("Object ->", object_phrase)
