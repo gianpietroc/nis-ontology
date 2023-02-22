@@ -1,16 +1,14 @@
 import spacy
-import textacy 
-
 import json
 
 data = json.load(open('articles.json'))
-jtopy=json.dumps(data)
-dict_json=json.loads(jtopy)
+dump = json.dumps(data)
+articles_dict = json.loads(dump)
 
 excluded_tags = {"ADV"}
 
-
 nlp = spacy.load('en_core_web_sm')
+
 
 def remove_tags(doc):
     new_sentence = []
@@ -19,6 +17,7 @@ def remove_tags(doc):
             new_sentence.append(token.text)
     return new_sentence
 
+
 def get_subject_phrase(doc):
     for token in doc:
         if ("subj" in token.dep_):
@@ -26,6 +25,7 @@ def get_subject_phrase(doc):
             start = subtree[0].i
             end = subtree[-1].i + 1
             return doc[start:end]
+
 
 def get_object_phrase(doc):
     for token in doc:
@@ -36,19 +36,34 @@ def get_object_phrase(doc):
             return doc[start:end]
 
 
-for i in range(len(dict_json)):
-    sentence = dict_json["articles"][0].get('measures')[0].get("measure-"+str(i+1))
-    
-    if(dict_json["articles"][0].get('measures')[0].get('sub-measures') is not None):
-        print("ok submeasures")
+for i in range(len(articles_dict)):
+    sentence = articles_dict["articles"][0].get(
+        'measures')[0].get("measure-"+str(i+1))
 
-    doc = nlp(sentence)
-    
-    removed = remove_tags(doc)
-    final  = ' '.join(map(str,removed))
-    final_nlp = nlp(final)
+    sentences = sentence.split(".")
 
-    subject_phrase = get_subject_phrase(final_nlp)
-    object_phrase = get_object_phrase(final_nlp)
-    print("Subject ->", subject_phrase)
-    print("Object ->", object_phrase)
+    for s in sentences:
+        doc = nlp(s)
+
+        removed = remove_tags(doc)
+        final = ' '.join(map(str, removed))
+        final_nlp = nlp(final)
+
+        subject_phrase = get_subject_phrase(final_nlp)
+
+        print("Subject ->", subject_phrase)
+
+        if (s == sentences[-1]):
+
+            sub_measure_check = articles_dict["articles"][0].get(
+                'measures')[0].get('sub-measures-'+str(i+1))
+
+            if (sub_measure_check is not None):
+                for j in range(len(sub_measure_check[0])):
+                    var_sub = nlp(sub_measure_check[0].get(
+                        'sub-measure-'+str(i+1)+chr(ord('a') + j)))
+
+                    print("Object ->", var_sub)
+        else:
+            object_phrase = get_object_phrase(final_nlp)
+            print("Object ->", object_phrase)
