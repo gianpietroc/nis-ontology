@@ -1,8 +1,12 @@
 import spacy
 from tika import parser
-import re
 
-excluded_tags = {"ADV"}
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
+
+excluded_tags = stopwords.words()
 
 nlp = spacy.load('en_core_web_sm')
 
@@ -34,6 +38,15 @@ def remove_tags(doc):
             new_sentence.append(token.text)
     return new_sentence
 
+def clean_object(obj_var):
+    final = ' '.join(map(str, obj_var))
+    text_tokens = word_tokenize(final)
+    tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
+
+    final = ' '.join(map(str, tokens_without_sw))
+
+    return final            
+    
 
 def get_subject_phrase(doc):
     for token in doc:
@@ -67,8 +80,8 @@ for u in range(2, 3):
         else:
             i = i + 1
 
-    i = 0
-    while i < 10:
+    i = 1
+    while i < 7:
         ch = "(a)"
         j = 1
 
@@ -78,15 +91,31 @@ for u in range(2, 3):
             if (sentences[t] == ""):
                 continue
             else:
-                print("S:", i, " ", sentences[t])
+                print("S:", i, sentences[t])
+                doc = nlp(sentences[t])
+
+                removed = remove_tags(doc)
+                final = ' '.join(map(str, removed))
+                final_nlp = nlp(final)
+                subject_phrase = get_subject_phrase(final_nlp)
+
+                print("Subject", i , subject_phrase)
+
             if (":" in sentences[t]):
-                print("submeasure here --> ", sentences[t])
+                print("Submeasure list --> ", sentences[t])
                 i = i + 1
                 while (articles_dict[i][0:3] == ch):
-                    print("sm:", i, " sub-measure", articles_dict[i])
+                    print("Object ->", articles_dict[i])
                     ch = "(" + chr(ord('a') + j) + ")"
                     i = i + 1
                     j = j + 1
+                
                 i = i - 1
+            
+            else:
+                object_phrase = get_object_phrase(final_nlp)
+                obj_var  = [i.text for i in object_phrase]
+                final_object = clean_object(obj_var)
+                print("Object -->", i , final_object)
+
         i = i + 1
-        
