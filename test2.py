@@ -11,24 +11,6 @@ excluded_tags = stopwords.words()
 
 nlp = spacy.load('en_core_web_sm')
 
-def get_articles_name():
-    articles = []
-    #for i in range(7, 36):
-    for i in range(5, 7):
-        article = "\n\nArticle " + str(i)
-        start = data.find(article)
-
-        end = data.find("1.", start)
-        var = data[start:end]
-
-        var = var.replace("Article " + str(i), "")
-        var = var.strip()
-
-        articles.append(var)
-
-    return (articles)
-
-
 def find_between(s, first, last):
     start = end = ""
     try:
@@ -80,8 +62,8 @@ input_n = input("Enter 1 for GDPR, 2 FOR NIS:")
 if (input_n == "1"):
     parsed_pdf = parser.from_file("gdpr.pdf")
     space = ""
-    start_a = 5
-    end_a = 20
+    start_a = 11
+    end_a = 13
 
 elif (input_n == "2"):
     parsed_pdf = parser.from_file("nis2.pdf")
@@ -107,24 +89,21 @@ def get_articles_name():
 
     return (articles)
 
-articles = get_articles_name()
+articles_name = get_articles_name()
 to_remove1 = "Official Journal of the European Union"
 to_remove2 = "OJ L 241, 17.9.2015, p. 1"
 
 #for u in range(0, len(articles)-1):
 for u in range(0, 1):
     article = find_between(
-        data, space + articles[u] + space, space + articles[u+1]+ space)
+        data, space + articles_name[u] + space, space + articles_name[u+1]+ space)
 
     articles_dict = article.split("\n\n")
 
     i = 0
 
     while i < len(articles_dict):
-        print("---",articles_dict[i])
-        print()
         if (to_remove1 in articles_dict[i] or to_remove2 in articles_dict[i] or articles_dict[i] == ""):
-            print("Removed ---",articles_dict[i])        
             del articles_dict[i]
         else:
             i = i + 1
@@ -137,7 +116,7 @@ for u in range(0, 1):
         sentences = articles_dict[i].split(".")
 
         for t in range(1, len(sentences)):
-            if (sentences[t] == ""):
+            if (sentences[t] == "" or sentences[t] == " "):
                 continue
             else:
                 print("Part:", i, sentences[t])
