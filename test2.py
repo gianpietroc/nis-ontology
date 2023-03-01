@@ -1,3 +1,4 @@
+
 import spacy
 from tika import parser
 
@@ -10,13 +11,10 @@ excluded_tags = stopwords.words()
 
 nlp = spacy.load('en_core_web_sm')
 
-parsed_pdf = parser.from_file("nis2.pdf")
-data = parsed_pdf['content']
-
-
 def get_articles_name():
     articles = []
-    for i in range(7, 36):
+    #for i in range(7, 36):
+    for i in range(5, 7):
         article = "\n\nArticle " + str(i)
         start = data.find(article)
 
@@ -31,11 +29,6 @@ def get_articles_name():
     return (articles)
 
 
-articles = get_articles_name()
-
-to_remove = "EN Official Journal of the European Union"
-
-
 def find_between(s, first, last):
     start = end = ""
     try:
@@ -43,7 +36,7 @@ def find_between(s, first, last):
         end = s.index(last, start)
         return s[start:end]
     except ValueError:
-        return ""
+        return "Error"
 
 
 def remove_tags(doc):
@@ -82,17 +75,56 @@ def get_object_phrase(doc):
             end = subtree[-1].i + 1
             return doc[start:end]
 
+input_n = input("Enter 1 for GDPR, 2 FOR NIS:")
 
-for u in range(0, len(articles)-1):
+if (input_n == "1"):
+    parsed_pdf = parser.from_file("gdpr.pdf")
+    space = ""
+    start_a = 5
+    end_a = 20
+
+elif (input_n == "2"):
+    parsed_pdf = parser.from_file("nis2.pdf")
+    space = "\n\n"
+    start_a = 7
+    end_a = 36
+data = parsed_pdf['content']
+
+
+def get_articles_name():
+    articles = []
+    for i in range(start_a, end_a):
+        article = "\n\nArticle " + str(i)
+        start = data.find(article)
+
+        end = data.find("1.", start)
+        var = data[start:end]
+
+        var = var.replace("Article " + str(i), "")
+        var = var.strip()
+
+        articles.append(var)
+
+    return (articles)
+
+articles = get_articles_name()
+to_remove1 = "Official Journal of the European Union"
+to_remove2 = "OJ L 241, 17.9.2015, p. 1"
+
+#for u in range(0, len(articles)-1):
+for u in range(0, 1):
     article = find_between(
-        data, "\n\n" + articles[u] + "\n\n", "\n\n" + articles[u+1]+"\n\n")
+        data, space + articles[u] + space, space + articles[u+1]+ space)
 
     articles_dict = article.split("\n\n")
 
     i = 0
 
     while i < len(articles_dict):
-        if (to_remove in articles_dict[i] or articles_dict[i] == ""):
+        print("---",articles_dict[i])
+        print()
+        if (to_remove1 in articles_dict[i] or to_remove2 in articles_dict[i] or articles_dict[i] == ""):
+            print("Removed ---",articles_dict[i])        
             del articles_dict[i]
         else:
             i = i + 1
