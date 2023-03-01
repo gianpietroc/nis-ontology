@@ -33,7 +33,7 @@ def get_articles_name():
 
 articles = get_articles_name()
 
-to_remove = "EN Official Journal of the European Union L 333/132 27.12.2022"
+to_remove = "EN Official Journal of the European Union"
 
 
 def find_between(s, first, last):
@@ -83,29 +83,27 @@ def get_object_phrase(doc):
             return doc[start:end]
 
 
-for u in range(0, 1):
+for u in range(0, len(articles)-1):
     article = find_between(
         data, "\n\n" + articles[u] + "\n\n", "\n\n" + articles[u+1]+"\n\n")
 
-    print("ARTICLE -> ", articles[u])
     articles_dict = article.split("\n\n")
 
     i = 0
 
-    while i < 15:
+    while i < len(articles_dict):
         if (to_remove in articles_dict[i] or articles_dict[i] == ""):
             del articles_dict[i]
         else:
             i = i + 1
 
     i = 0
-    lens = 3
-    while i < lens:
+    while i < len(articles_dict) - 1:
         ch = "(a)"
         j = 1
 
         sentences = articles_dict[i].split(".")
-        lens = len(sentences)
+
         for t in range(1, len(sentences)):
             if (sentences[t] == ""):
                 continue
@@ -124,7 +122,7 @@ for u in range(0, 1):
                 print("Submeasure list --> ", sentences[t])
                 i = i + 1
                 while (articles_dict[i][0:3] == ch):
-                    print("SubObject -->", articles_dict[i])
+                    print("SubObject", i, " -->", articles_dict[i])
                     ch = "(" + chr(ord('a') + j) + ")"
                     i = i + 1
                     j = j + 1
