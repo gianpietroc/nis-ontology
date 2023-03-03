@@ -57,6 +57,15 @@ def get_object_phrase(doc):
             end = subtree[-1].i + 1
             return doc[start:end]
 
+def get_relation(doc):
+    for i,tok in enumerate(doc): 
+        if (tok.text == "may" or tok.text == "shall"):
+            aux = True
+        if (tok.pos_ == "VERB" and aux == True and not(tok.dep_ == "advcl")):
+            aux = False
+            verb = tok.text
+            return verb
+
 input_n = input("Enter 1 for GDPR, 2 FOR NIS:")
 
 if (input_n == "1"):
@@ -128,6 +137,7 @@ for u in range(0, 1):
                 subject_phrase = get_subject_phrase(final_nlp)
 
                 print("Subject", i, "-->", subject_phrase)
+                print("Relation", i, "--->", get_relation(final_nlp))
 
             if (":" in sentences[t]):
                 print("Submeasure list --> ", sentences[t])
