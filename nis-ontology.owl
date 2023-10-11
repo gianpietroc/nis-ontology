@@ -256,6 +256,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#awareOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#awareOf"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#basedOn -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#basedOn"/>
@@ -334,6 +340,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#checkComplianceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#checkComplianceOf"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#clarify -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#clarify"/>
@@ -355,6 +367,18 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#communicateTo -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#communicateTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#compel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#compel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#compelToCease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#compelToCease"/>
     
 
 
@@ -391,6 +415,12 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#consider -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#consider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#considerAsMinimum -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#considerAsMinimum"/>
     
 
 
@@ -658,6 +688,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureFinesAre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureFinesAre"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureIntegrityOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureIntegrityOf"/>
@@ -673,6 +709,12 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureManagementBodiesApprove -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureManagementBodiesApprove"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureMeasuresAre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureMeasuresAre"/>
     
 
 
@@ -940,6 +982,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#impose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#impose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposeInAdditionTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposeInAdditionTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedTo"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#inAdditionTo -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#inAdditionTo"/>
@@ -1012,6 +1078,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informAbout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informAbout"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informCooperationGroupOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informCooperationGroupOf"/>
@@ -1021,6 +1093,30 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informRealTimeAbout -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informRealTimeAbout"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringementBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringementBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringementCanEntail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringementCanEntail"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringmentsIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringmentsIncludedIn"/>
     
 
 
@@ -1060,9 +1156,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#issueWarningsOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#issueWarningsOn"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#layDown -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#layDown"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#layDownTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#layDownTo"/>
     
 
 
@@ -1093,6 +1201,12 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#make -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#make"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#makeIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#makeIn"/>
     
 
 
@@ -1180,9 +1294,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayImpose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayImpose"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayInvite -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayInvite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayLayDown -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayLayDown"/>
     
 
 
@@ -1390,6 +1516,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#organise -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#organise"/>
@@ -1564,6 +1702,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#pursuantTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#pursuantTo"/>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#referTo -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#referTo"/>
@@ -1657,6 +1801,12 @@
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#respondTo -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#respondTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#resultingFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#resultingFrom"/>
     
 
 
@@ -1902,6 +2052,18 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmount"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmountPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmountPercentage"/>
     
 
 
@@ -2204,6 +2366,38 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdequateResourcesDirectiveFulfilment -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdequateResourcesDirectiveFulfilment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par2"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par3"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#considerAsMinimum"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par7"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposeInAdditionTo"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par5"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art33Par4"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -3762,6 +3956,30 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1-CSIRT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1-CSIRT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1-MemberState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1-MemberState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art12Unc1"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art13 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art13">
@@ -4168,6 +4386,46 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art13Par5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art13Par5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureCooperationBetween"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2018/1972-CompetentAuthorities"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2022/2557-CompetentAuthorities"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2022/2554-CompetentAuthorities"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation910/2014-CompetentAuthorities"/>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#cooperateAbout"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberThreat"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Incident"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationExchange"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Non-cyberRisks"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Risks"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2022/257-CriticalEntities"/>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art13"/>
     </owl:Class>
     
@@ -9949,6 +10207,51 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par1 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensure"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EnforcementMeasures"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupervisoryMeasures"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedTo"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EssentialEntity"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureMeasuresAre"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Dissuasive"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Effective"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IndividualCircumstance"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Proportionate"/>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32"/>
     </owl:Class>
     
@@ -10220,6 +10523,409 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-MemberState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-MemberState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-a-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-a-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#issueWarningsOn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringment"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-b-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-b-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#adopt"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BindingInstructions"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MitigationalMeasures"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsDefenciesRemediation"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-c-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-c-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsCessation"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-d-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-d-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#complyWith"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art21"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#fulfil"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ReportingObligations"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#includedIn"/>
+                                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art23"/>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-e-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-e-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#inform"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Class>
+                                                        <owl:unionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#LegalPerson"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NaturalPerson"/>
+                                                        </owl:unionOf>
+                                                    </owl:Class>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#informAbout"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberThreatNature"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MitigationalMeasures"/>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-f-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-f-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#implement"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Recommendations"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#resultingFrom"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAudit"/>
+                                                                    <owl:Class>
+                                                                        <owl:complementOf>
+                                                                            <owl:Restriction>
+                                                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#include"/>
+                                                                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Delay"/>
+                                                                            </owl:Restriction>
+                                                                        </owl:complementOf>
+                                                                    </owl:Class>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-g-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-g-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#designate"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MonitoringOfficer"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#checkComplianceOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art21"/>
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art23"/>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-h-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-h-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#orderTo"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#order"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#make"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsPublicAspects"/>
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#makeIn"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SpecificManner"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-i-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-i-CompetentAuthorities">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#impose"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#pursuantTo"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedBy"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Courts"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantBodies"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Tribunals"/>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par4-CompetentAuthorities"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par5">
@@ -10255,6 +10961,22 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par9 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Par9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Unc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Unc1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Unc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32Unc2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art32"/>
     </owl:Class>
     
@@ -10327,6 +11049,46 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par1 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensure"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#imposedTo"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensureFinesAre"/>
+                                                        <owl:someValuesFrom>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Dissuasive"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Effective"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IndividualCircumstance"/>
+                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Proportionate"/>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34"/>
     </owl:Class>
     
@@ -10356,6 +11118,73 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4-EssentialEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4-EssentialEntity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EssentialEntity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringe"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art21"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art23"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#subjectTo"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines"/>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmount"/>
+                                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10000000</owl:maxCardinality>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmountPercentage"/>
+                                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                                            </owl:Restriction>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4-MemberState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4-MemberState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4-EssentialEntity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par4"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5">
@@ -10364,9 +11193,107 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5-ImportantEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5-ImportantEntity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ImportantEntity"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringe"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art21"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art23"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#subjectTo"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines"/>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmount"/>
+                                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7000000</owl:maxCardinality>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFineAmountPercentage"/>
+                                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                                            </owl:Restriction>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5-MemberState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5-MemberState">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ensure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5-ImportantEntity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par5"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par6 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayImpose"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PeriodicPenaltyPayments"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#compel"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#compelToCease"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringment"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34"/>
     </owl:Class>
     
@@ -10375,6 +11302,27 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par7 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34Par7">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MemberState"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#mayLayDown"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AdministrativeFines"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#layDownTo"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PublicAdministration"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art34"/>
     </owl:Class>
     
@@ -10399,6 +11347,74 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art35Par1 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art35Par1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#awareOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringementBy"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Entity"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringementCanEntail"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PersonalDataBreach"/>
+                                                            <owl:Restriction>
+                                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#infringmentsIncludedIn"/>
+                                                                <owl:someValuesFrom>
+                                                                    <owl:Class>
+                                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                                            <owl:Class>
+                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art21"/>
+                                                                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art23"/>
+                                                                                </owl:intersectionOf>
+                                                                            </owl:Class>
+                                                                            <owl:Restriction>
+                                                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#inform"/>
+                                                                                <owl:someValuesFrom>
+                                                                                    <owl:Class>
+                                                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupervisoryAuthorities"/>
+                                                                                            <owl:Restriction>
+                                                                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#referredTo"/>
+                                                                                                <owl:someValuesFrom>
+                                                                                                    <owl:Class>
+                                                                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2016/679-Art55"/>
+                                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2016/679-Art56"/>
+                                                                                                        </owl:intersectionOf>
+                                                                                                    </owl:Class>
+                                                                                                </owl:someValuesFrom>
+                                                                                            </owl:Restriction>
+                                                                                        </owl:intersectionOf>
+                                                                                    </owl:Class>
+                                                                                </owl:someValuesFrom>
+                                                                            </owl:Restriction>
+                                                                        </owl:intersectionOf>
+                                                                    </owl:Class>
+                                                                </owl:someValuesFrom>
+                                                            </owl:Restriction>
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Art35"/>
     </owl:Class>
     
@@ -12984,6 +14000,14 @@ and incidents as well as on non-cyber risks, threats and incidents and the exerc
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AuditedEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AuditedEntity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Authority -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Authority">
@@ -13027,6 +14051,14 @@ and incidents as well as on non-cyber risks, threats and incidents and the exerc
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BestPractices -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BestPractices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BindingInstructions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BindingInstructions">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -13712,6 +14744,14 @@ the meaning of Article 6 of NIS directive.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Courts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Courts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CriminalNatureIncident -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CriminalNatureIncident">
@@ -14000,6 +15040,14 @@ the meaning of Article 6 of NIS directive.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberThreatLandscape -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberThreatLandscape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberThreatNature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberThreatNature">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -14571,6 +15619,38 @@ for power distribution and environmental control</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveEU2022-2557CompetentAuthority -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveEU2022-2557CompetentAuthority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsCessation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsCessation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsDefenciesRemediation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsDefenciesRemediation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsPublicAspects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringementsPublicAspects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DirectiveInfringment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -15699,6 +16779,14 @@ and containment of and a response to an incident.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IndividualCircumstance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IndividualCircumstance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationAccess -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationAccess">
@@ -16107,6 +17195,22 @@ primarily for the purpose of facilitating the exchange of internet traffic.</rdf
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresImplementationReporting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresImplementationReporting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresTimeLimitsImplementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MeasuresTimeLimitsImplementation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MediumEnterprise -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MediumEnterprise">
@@ -16198,6 +17302,14 @@ primarily for the purpose of facilitating the exchange of internet traffic.</rdf
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MitigationalMeasuresImplementationGuidance -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MitigationalMeasuresImplementationGuidance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MonitoringOfficer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MonitoringOfficer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -16611,6 +17723,14 @@ primarily for the purpose of facilitating the exchange of internet traffic.</rdf
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Non-cyberRisks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Non-cyberRisks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Non-discriminatoryCriteria -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Non-discriminatoryCriteria">
@@ -17002,10 +18122,26 @@ core of the open internet.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PeriodicPenaltyPayments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PeriodicPenaltyPayments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PersonalData -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PersonalData">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PersonalDataBreach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PersonalDataBreach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
 
@@ -17099,6 +18235,14 @@ core of the open internet.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PoliticalLevelDecisionMaking -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PoliticalLevelDecisionMaking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PrecedingFinancialYearWorldwideAnnualTurnover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PrecedingFinancialYearWorldwideAnnualTurnover">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -17346,6 +18490,27 @@ persons, goods, services or capital.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RegularSecurityAudits -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RegularSecurityAudits">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#basedOn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#conductedBy"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AuditedEntity"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CompetentAuthority"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -17378,6 +18543,14 @@ persons, goods, services or capital.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantAuthority -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantAuthority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantBodies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RelevantBodies">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -17668,6 +18841,14 @@ their resilience to cybersecurity threats.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAudit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAudit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityScans -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityScans">
@@ -17837,6 +19018,14 @@ connect, share, discover and communicate with each other across multiple devices
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SpecificIssues -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SpecificIssues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SpecificManner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SpecificManner">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
@@ -18289,6 +19478,14 @@ services.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Tribunals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Tribunals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Trust -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Trust">
@@ -18559,6 +19756,30 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2018/1972-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2018/1972-CompetentAuthorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2022/2557-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2022/2557-CompetentAuthorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2022/257-CriticalEntities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Directive2022/257-CriticalEntities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EU2022/2554-CompetentAuthorities -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EU2022/2554-CompetentAuthorities">
@@ -18629,6 +19850,22 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2016/679-Art55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2016/679-Art55">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2016/679-Art56 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2016/679-Art56">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2019/881-Art48Par2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2019/881-Art48Par2">
@@ -18664,6 +19901,22 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2022/2554-Art47 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2022/2554-Art47">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2022/2554-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation2022/2554-CompetentAuthorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation910/2014-CompetentAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Regulation910/2014-CompetentAuthorities">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#PQTOCOLLOCATE"/>
     </owl:Class>
     
