@@ -8080,19 +8080,19 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#minimiseOn"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipientIncidentImpact"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#take"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#take"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#take"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -8775,7 +8775,7 @@ cybersecurity tools and secure network infrastructure.</rdfs:comment>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipient"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipientIncidentImpact"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#communicate"/>
                                                 <owl:someValuesFrom>
@@ -20187,14 +20187,6 @@ core of the open internet.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Measure"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalPracticesConvergence -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalPracticesConvergence">
@@ -20207,14 +20199,6 @@ core of the open internet.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationsTrustworthiness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Property"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Measure"/>
     </owl:Class>
     
 
@@ -21043,6 +21027,30 @@ content delivery network provider.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Measure"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RoutingRequestsSystem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RoutingRequestsSystem">
@@ -21269,9 +21277,9 @@ their resilience to cybersecurity threats.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipient -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipientIncidentImpact -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipient">
+    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipientIncidentImpact">
         <rdfs:subClassOf rdf:resource="http://www.dmi.unict.it/oasis.owl#Service"/>
     </owl:Class>
     
@@ -21759,14 +21767,6 @@ services.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalArea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Technical"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Measure"/>
     </owl:Class>
     
 
@@ -22680,6 +22680,58 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Intrapresa-Test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#Intrapresa-Test">
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AccessControlPolicy"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AssetManagement"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BackupManagement"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BusinessContinuity"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ContinuousAuthenticationSolution"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CrisisManagement"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CryptographyUsePolicy"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CryptographyUseProcedures"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberHygienePractice"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityRiskManagementMeasuresEffectivenessPolicy"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityRiskManagementMeasuresEffectivenessProcedures"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityTraining"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DisasterRecovery"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EntityProviderRelationship-SecurityAspect"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#HumanResourceSecurity"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentHandling"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationSystemSecurityPolicy"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MultifactorAuthentication"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsAcquisition-Security"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsDevelopment-Security"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsDisclosure-Security"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsMaintenance-Security"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsSecurity"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsVulnerabilityHandling-Security"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAnalysisPolicy"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredEmergencyCommunication"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredTextCommunication"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredVideo"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredVoice"/>
+        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplyChainSecurity"/>
+        <manageRisksOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsSecurity"/>
+        <minimise rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentImpact"/>
+        <minimiseOn rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServiceRecipient"/>
+        <subjectTo rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAudit"/>
+        <subjectTo rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAuditEvidenceRequest"/>
+        <subjectTo rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityScan"/>
+        <subjectToRequestFor rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DataAccess"/>
+        <subjectToRequestFor rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DocumentAccess"/>
+        <subjectToRequestFor rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationAccess"/>
+        <take rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure"/>
+        <take rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure"/>
+        <take rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure"/>
+        <takeIntoAccount rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment&amp;VulnerabilityHandling"/>
+        <use rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GenericICTAsset"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MultifactorAuthentication -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MultifactorAuthentication">
@@ -22736,22 +22788,6 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAnalysisPolicy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAnalysisPolicy">
@@ -22760,54 +22796,26 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SDB -->
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SDB">
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AccessControlPolicy"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#AssetManagement"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BackupManagement"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#BusinessContinuity"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ContinuousAuthenticationSolution"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CrisisManagement"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CryptographyUsePolicy"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CryptographyUseProcedures"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CyberHygienePractice"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityRiskManagementMeasuresEffectivenessPolicy"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityRiskManagementMeasuresEffectivenessProcedures"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#CybersecurityTraining"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DisasterRecovery"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#EntityProviderRelationship-SecurityAspect"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#HumanResourceSecurity"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentHandling"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationSystemSecurityPolicy"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#MultifactorAuthentication"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsAcquisition-Security"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsDevelopment-Security"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsDisclosure-Security"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsMaintenance-Security"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsSecurity"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsVulnerabilityHandling-Security"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAnalysisPolicy"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredEmergencyCommunication"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredTextCommunication"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredVideo"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecuredVoice"/>
-        <include rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplyChainSecurity"/>
-        <manageRisksOf rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#NetworkInformationSystemsSecurity"/>
-        <minimise rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#IncidentImpact"/>
-        <minimiseOn rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServiceRecipient"/>
-        <subjectTo rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAudit"/>
-        <subjectTo rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityAuditEvidenceRequest"/>
-        <subjectTo rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SecurityScan"/>
-        <subjectToRequestFor rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DataAccess"/>
-        <subjectToRequestFor rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#DocumentAccess"/>
-        <subjectToRequestFor rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#InformationAccess"/>
-        <take rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OperationalMeasure"/>
-        <take rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#OrganisationalMeasure"/>
-        <take rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure"/>
-        <takeIntoAccount rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RiskAssessment&amp;VulnerabilityHandling"/>
-        <use rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#GenericICTAsset"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOperationalMeasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksOrganisationalMeasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#RisksTechnicalMeasure"/>
     </owl:NamedIndividual>
     
 
@@ -22871,7 +22879,7 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
     <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServiceRecipient -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServiceRecipient">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipient"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#ServicesRecipientIncidentImpact"/>
     </owl:NamedIndividual>
     
 
@@ -22880,14 +22888,6 @@ or control that can be exploited by a cyber threat.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplyChainSecurity">
         <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#SupplyChainSecurity"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure">
-        <rdf:type rdf:resource="http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#TechnicalMeasure"/>
     </owl:NamedIndividual>
     
 
