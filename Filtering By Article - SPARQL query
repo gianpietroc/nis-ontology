@@ -1,0 +1,24 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX nis: <http://www.unict.it/nas-inf/nis2onto/nis2onto.owl#>
+
+SELECT ?article ?action ?object
+   WHERE{
+      nis:ImportantEntity-ExAnte owl:equivalentClass ?a .
+      ?a owl:intersectionOf ?b .
+      ?b rdf:rest* ?c .
+      ?c rdf:first ?article .
+      ?article owl:equivalentClass ?e.
+      FILTER (?article = nis:Art21Par2-j-Entity) 
+      ?e owl:intersectionOf ?f .
+      ?f rdf:rest* ?t .
+      ?t rdf:first ?s .
+      ?s owl:onProperty ?action .   
+      ?s owl:someValuesFrom ?object .
+     MINUS {
+      nis:CompliantOrganisation ?action ?objInd .
+      ?objInd rdf:type ?object .
+     }
+   }
