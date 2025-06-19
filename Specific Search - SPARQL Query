@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX nis: <http://www.unict.it/nas-inf/nis2onto/nis2onto.owl#>
+
+SELECT DISTINCT ?mentionedClass
+WHERE {
+  ?anyClass owl:equivalentClass ?definition .
+
+ {
+    ?definition (owl:intersectionOf|owl:unionOf|rdf:rest*/rdf:first)* ?mentionedClass .
+  }
+  UNION
+  {
+  
+    ?definition (owl:intersectionOf|owl:unionOf|rdf:rest*/rdf:first)* ?restriction .
+    ?restriction owl:someValuesFrom ?mentionedClass .
+  }
+  FILTER regex (STR(?mentionedClass), "CSIRT")
+}
